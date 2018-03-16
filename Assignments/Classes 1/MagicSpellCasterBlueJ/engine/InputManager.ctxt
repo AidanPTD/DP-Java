@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ Initialize()
+comment1.params=ke
+comment1.target=boolean\ dispatchKeyEvent(java.awt.event.KeyEvent)
+comment2.params=
+comment2.target=void\ Update()
+comment3.params=keyCode
+comment3.target=boolean\ IsPressed(int)
+comment4.params=keyCode
+comment4.target=boolean\ IsTriggered(int)
+comment5.params=keyCode
+comment5.target=boolean\ IsReleased(int)
+comment6.params=
+comment6.target=void\ Destroy()
+numComments=7

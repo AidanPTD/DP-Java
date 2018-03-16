@@ -1,0 +1,11 @@
+NOTE: 
+This folder includes two project templates.
+One is a project made in Eclipse, the other
+is a project made in BlueJ. Choose the folder
+that corresponds to the program you've been
+using so far.
+
+You will need to add 2 additional classes
+to the Gameplay package as detailed in the
+assignment instructions - Hero.java and 
+MagicSpell.java.

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=windowTitle_\ windowWidth_\ windowHeight_
+comment0.target=void\ Initialize(java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=void\ Destroy()
+numComments=2
