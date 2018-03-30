@@ -10,7 +10,7 @@ public class Main
 	
 	private static void Initialize()
 	{
-		fps = 60;
+		fps = 60; 
 		GraphicsManager.Initialize("Magic Spell Caster", 800, 600);
 		InputManager.Initialize();
 		level = new Level();

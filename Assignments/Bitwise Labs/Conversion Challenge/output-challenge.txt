@@ -1,0 +1,18 @@
+    Decimal   Hexadecimal
+          0   00000000
+          1   00000001
+         -1   ffffffff
+        100   00000064
+       -100   ffffff9c
+ 2147483647   7fffffff
+-2147483648   80000000
+
+
+Hexadecimal       Decimal
+00000000                0
+00000001                1
+ffffffff               -1
+00000064              100
+ffffff9c             -100
+7fffffff       2147483647
+80000000      -2147483648

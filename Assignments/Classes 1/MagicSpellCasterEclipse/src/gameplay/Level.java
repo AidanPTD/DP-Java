@@ -24,11 +24,11 @@ public class Level
 	{
 		if(InputManager.IsTriggered(KeyEvent.VK_SPACE))
 		{
-			//Student code goes here
+			onScreenText.setText(hero.CastSpell());
 		}
 		else if(InputManager.IsTriggered(KeyEvent.VK_N))
 		{
-			//Student code goes here
+			onScreenText.setText(hero.SwitchToNextSpell());
 		}
 	}
 	
