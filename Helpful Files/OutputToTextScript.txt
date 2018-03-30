@@ -1,0 +1,11 @@
+		File file = new File("myOutput.txt");
+		FileOutputStream fos;
+		try
+		{
+			fos = new FileOutputStream(file);
+			PrintStream ps = new PrintStream(fos);
+			System.setOut(ps);
+		} catch (FileNotFoundException e)
+		{
+			e.printStackTrace();
+		}
