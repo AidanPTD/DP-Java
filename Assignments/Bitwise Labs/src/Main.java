@@ -13,14 +13,13 @@ public class Main
 		int mask = 1;
 		// The binary array used to store the binary number
 		char[] binaryString = new char[output.length];
-		char[] binary = Integer.toBinaryString(number).toCharArray();
 		// Storing the binary value in the binary string array
-		for (int i = binary.length - 1; i > 0; i--)
+		/* for (int i = binary.length - 1; i > 0; i--)
 		{
 			binaryString[i] = binary[i];
-		}
+		} */
 		// Looping through the BS array, starting from the end of the array
-		for (int i = 31; i > 0; i--)
+		for (int i = 31; i >= 0; i--)
 		{
 			// Checking if the bytes are all set using the AND operator
 			output[i] = binaryString[i];
@@ -31,7 +30,7 @@ public class Main
 			{
 				output[i] = '1';
 			}
-			mask >>>= 1;
+			mask <<= 1;
 		}
 		// Storing the binary string in the output array
 		for (int i = 32; i > output.length; i--)
@@ -47,6 +46,14 @@ public class Main
 	public static int BinaryToDec(char number[])
 	{
 		int output = 0;
+		int mask = 1;
+		for (int i = number.length - 1; i >= 0; i--) {
+			if (number[i]== '1')
+			{
+				output = output | mask;
+			}
+			mask <<= 1;
+		}
 		return output;
 	}
 	
